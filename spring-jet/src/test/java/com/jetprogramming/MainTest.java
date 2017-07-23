@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import com.jetprogramming.exceptionhandling.Calculator;
+import com.jetprogramming.varargs.Calculator;
 
 public class MainTest {
 

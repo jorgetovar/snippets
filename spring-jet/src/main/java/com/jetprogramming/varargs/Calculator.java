@@ -1,4 +1,4 @@
-package com.jetprogramming.exceptionhandling;
+package com.jetprogramming.varargs;
 
 public class Calculator {
 
