@@ -6,7 +6,7 @@
 	<display-name>Snnipets</display-name>
 
 	<welcome-file-list>
-		<welcome-file>login.do</welcome-file>
+		<welcome-file>index</welcome-file>
 	</welcome-file-list>
 
 </web-app>
