@@ -7,17 +7,6 @@
 <title>Snnipets</title>
 </head>
 <body>
-	<!-- Expression lenguage  -->
-
-	<h1>Hello from the servlet JSP</h1>
-	<p>
-		<font color="red">${errorMessage}</font>
-	</p>
-
-	<form action="/index" method="POST">
-		<input type="text" name="name"> <input type="password"
-			name="password"> <input type="submit" value="Send">
-	</form>
-
+	<h1>Welcome ${name}</h1>
 </body>
 </html>

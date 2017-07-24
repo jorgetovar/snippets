@@ -10,6 +10,7 @@
 		<module>jee-jet</module>
 		<module>spring-jet</module>
 		<module>spring-boot-jet</module>
+		<module>spring-xml-jet</module>
 	</modules>
 	
 </project>
