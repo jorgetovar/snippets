@@ -34,7 +34,7 @@ import com.jetprogramming.services.UserValidationService;
 @WebServlet(urlPatterns = "/index")
 public class IndexControllerServlet extends HttpServlet {
 
-	private UserValidationService userValidationService = new UserValidationService();
+	private static UserValidationService userValidationService = new UserValidationService();
 
 	/**
 	 * 
@@ -48,11 +48,11 @@ public class IndexControllerServlet extends HttpServlet {
 		String name = request.getParameter("name");
 		// pass the parameter
 		request.setAttribute("name", name);
-		System.out.println(name);
 		// Redirect to my jsp
 		request.getRequestDispatcher("WEB-INF/views/index.jsp").forward(request, response);
 	}
 
+	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String name = request.getParameter("name");
